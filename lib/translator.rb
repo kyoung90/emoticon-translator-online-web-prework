@@ -4,7 +4,7 @@ require "yaml"
 def load_library(path)
   # code goes here
   hash = YAML.load_file(path)
-  return hash
+  puts hash
 end
 
 def get_japanese_emoticon
