@@ -11,6 +11,7 @@ def load_library(path)
     library["get_emoticon"].merge!({emoticons[0] => emoticons[1]})
     library["get_meaning"].merge!({emoticons[1] => meaning.to_s})
   end 
+  return library
 end
 
 def get_japanese_emoticon
