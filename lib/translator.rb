@@ -5,6 +5,9 @@ def load_library(path)
   # code goes here
   hash = YAML.load_file(path)
   library = Hash.new()
+  hash.each do |meaning, emoticons|
+    
+  end 
 end
 
 def get_japanese_emoticon
