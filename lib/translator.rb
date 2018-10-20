@@ -9,6 +9,7 @@ def load_library(path)
   library[]
   hash.each do |meaning, emoticons|
     library["get_emoticon"].merge!({emoticons[0] => emoticons[1]})
+    library[""]
   end 
 end
 
