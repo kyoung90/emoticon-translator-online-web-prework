@@ -6,6 +6,7 @@ def load_library(path)
   hash = YAML.load_file(path)
   library = Hash.new()
   library["get_emoticon"] = {}
+  library[]
   hash.each do |meaning, emoticons|
     library["get_emoticon"].merge!({emoticons[0] => emoticons[1]})
   end 
