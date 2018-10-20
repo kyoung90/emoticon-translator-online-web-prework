@@ -30,6 +30,6 @@ def get_english_meaning(path, emoticon)
   if hash["get_meaning"].has_key?(emoticon)
     hash["get_meaning"][emoticon]
   else 
-    return "Sorry, that meaning was not found"
+    return "Sorry, that emoticon was not found"
   end 
 end
